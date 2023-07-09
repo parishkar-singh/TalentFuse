@@ -1,0 +1,213 @@
+body {
+    background: black;
+}
+
+.bodyShape {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+.island {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 831px;
+    height: 76px;
+    /*filter: blur(40px);*/
+    overflow: hidden;
+    flex-shrink: 0;
+    /*background:red;*/
+    fill: rgba(255, 255, 255, 0.06);
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 106px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    /*border: 1px solid rgba(255, 255, 255, 0.3);*/
+    /*backdrop-filter: blur(10px);*/
+    /*gap:20px;*/
+    /*margin-left: 20px;*/
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    gap: 40px
+}
+
+.islandItem {
+    cursor: pointer;
+}
+
+.islandItemImage {
+    display: flex;
+    width: 136px;
+    height: 49px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.letsTalkOutside {
+    color: #FFF;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: black;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 106px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.letsTalkInside {
+    /*backdrop-filter: blur(10px);*/
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.firstPage {
+    display: flex;
+    flex-direction: row;
+    /*width: 454px;*/
+    /*background: white;*/
+    height: auto;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.firstPageStructure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.firstPageStats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 222.011px;
+    height: 144.784px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.firstPageImage {
+    width: 631px;
+    height: 790px;
+    flex-shrink: 0;
+}
+
+.firstPageStatsNumber {
+
+    margin-top: 10px;
+    display: flex;
+    width: 154.952px;
+    height: 22.429px;
+    flex-direction: column;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Inter;
+    color:gold;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.firstPageStatText {
+    display: flex;
+    width: 151px;
+    height: 17px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.firstPageHire{
+    display: flex;
+    gap: 20px;
+}
+.firstPageHireButton{
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    margin-top: 20px;
+    gap: 10px;
+    width: 209.153px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(126, 126, 126, 0.29);
+    backdrop-filter: blur(10px);
+}
+.firstPageHireButtonImage{
+    transition: transform 0.3s ease;
+    width: 41px;
+    height: 41px;
+    flex-shrink: 0;
+    gap: 10px;
+}
+.firstPageHireButtonText{
+    display: flex;
+    transition: color 0.3s ease;
+    gap: 10px;
+    width: 108.76px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.firstPageHireButton:hover {
+    background-color: rgba(126, 126, 126, 0.8);
+    cursor: pointer;
+    transition-delay: 0.1s;
+}
+
+.firstPageHireButton:hover .firstPageHireButtonImage {
+    transform: scale(1.1);
+    transition-delay: 0.1s;
+}
+
+.firstPageHireButton:hover .firstPageHireButtonText {
+    color: #FFC700;
+    transition-delay: 0.1s;
+}
